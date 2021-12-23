@@ -120,6 +120,8 @@ p {
   
 
   .c1, .c2, .c3 {
+    height: 400px;
+    width: 250px;
     margin: 0;
   }
   /* .c1 { margin-left: auto; }
