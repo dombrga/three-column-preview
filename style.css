@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
-/* font-family: 'Big Shoulders Display', cursive;
-font-family: 'Lexend Deca', sans-serif; */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,6 +11,10 @@ body {
   padding: 40px;
 }
 
+.flex {
+  display: flex;
+}
+
 /* typography */
 
 h1 {
@@ -23,13 +24,13 @@ h1 {
   margin-bottom: 20px;
 }
 
-.c1 p, .c2 p, .c3 p, button {
+.c1 p, .c2 p, .c3 p {
   color: hsla(0, 0%, 100%, 0.75);
   font-family: 'Lexend Deca', sans-serif;
   font-size: 13px;
   line-height: 22px;
 
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 button { 
@@ -44,7 +45,7 @@ button {
 /* others */
 
 main {
-  
+  justify-content: center;
 }
 
 .card {
@@ -52,13 +53,12 @@ main {
 
 .c1, .c2, .c3 {
   /* height: 300px; */
-  /* width: 240px; */
-  width: 280px;
+  /* width: 240px;   */
 
-  margin: 0 auto;
+  /* width: 280px; */
+
+  /* margin: 0 auto; */
   padding: 30px 30px;
-
-  /* overflow: hidden; */
 }
 
 .c1 {
@@ -105,25 +105,22 @@ p {
 @media (min-width: 800px) {
   body { height: 100vh; }
   main {
-    /* height: 100vh; */
     height: 100%;
-    margin: 0 auto; 
+    /* margin: 0 auto;  */
+    justify-content: center;
+    align-items: center;
   }
 
   .card {
-    width: 100%;
-    height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
   }
 
   
 
   .c1, .c2, .c3 {
     margin: 0;
-    /* height: 00px; */
-    /* max-width: 280px; */
   }
   /* .c1 { margin-left: auto; }
   .c3 { margin-right: auto; } */
