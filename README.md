@@ -48,13 +48,11 @@ Users should be able to:
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-1. To be better at semantic HTML and where to put appropriate CSS properties.
+1. To be better at semantic HTML and where to appropriately put specific CSS properties.
 
 ### Useful resources
 
-- [MDN page for CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Comprehensive source for all things CSS
+- [MDN page for CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Comprehensive source for all things CSS.
 
 
 ## Author
